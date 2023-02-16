@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * Should have exactly the words
+ *  Main
  *
- * Should return a 0
+ *  Return 0
  */
 
 int main(void)
