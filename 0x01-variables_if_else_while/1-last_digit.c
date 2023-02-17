@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main - assign a random number to n
- *
+ * Main - assign a random number
+ * and print the last digit of the number stored in the variable n
  * Return: 0
  */
 int main(void)
