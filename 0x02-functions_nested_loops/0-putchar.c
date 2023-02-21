@@ -7,9 +7,15 @@
 
 int main(void)
 {
-	char ch = "_putchar";
+	char ch[] = "_putchar";
 
-	putchar (ch);
+	int c;
+
+	for (c = 0; c < 8; c++;)
+	{
+		puchar(ch[c]);
+
+	}
 
 	putchar ("\n");
 
