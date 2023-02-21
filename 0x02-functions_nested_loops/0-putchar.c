@@ -13,12 +13,10 @@ int main(void)
 
 	for (c = 0; c < 8; c++)
 	{
-		putchar(ch[c]);
-
+		_putchar(ch[c]);
 	}
 
-	putchar ("\n");
+	_putchar("\n");
 
 	return (0);
-
 }
