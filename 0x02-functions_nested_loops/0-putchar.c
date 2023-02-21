@@ -7,16 +7,15 @@
 
 int main(void)
 {
-	char ch[] = "_putchar";
+	char text[9] = "_putchar";
+	int i = 0;
 
-	int c;
-
-	for (c = 0; c < 8; c++)
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(ch[c]);
+		_putchar(text[i]);
 	}
-
-	_putchar("\n");
+	_putchar('\n');
 
 	return (0);
 }
+
