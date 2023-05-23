@@ -2,18 +2,16 @@
 
 /**
  * _puts - prints a string
- * @str: the string
- *
- * Return: the length of the string
+ * * @s: argument
+ * Return: Return always 0
  */
-void _puts(char *str)
+void _puts(char *s)
 {
-	int i = 0;
+        int z;
 
-	while (str[i] != '\0')
-	{
-		_putchar(str[i]);
-		i++;
-	}
-	_putchar('\n');
+        for (z = 0; s[z] != '\0'; z++)
+        {
+                _putchar(s[z]);
+        }
+        _putchar('\n');
 }
